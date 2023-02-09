@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Pseudoclases*/
+        p{
+            color: salmon;
+        }
+        p:hover{
+            color: aqua;
+        }
+        div p:nth-child(2){
+            color: violet
+        }
+
+        /*Pseudoelementos*/
+
+        p::first-letter{
+            color: teal;
+        }
+
+        a:active{
+            color: aqua;
+        }
+
+        a:visited{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <div>
+        <p>Platzi</p>
+        <p>Master</p>
+        <p>Lo mejor</p>
+    </div>
+
+    <a href="#">Click</a>
+</body>
+
+</html>
